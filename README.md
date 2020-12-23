@@ -28,7 +28,7 @@ python3 main.py --model_type kobert --do_train --do_eval --num_train_epochs 24
 
 Reference
 
-BERT by Google https://github.com/google-research/bert
-KoBERT by SKT https://github.com/SKTBrain/KoBERT
-KoELECTRA by Monologg https://github.com/monologg/KoELECTRA
-Transformers by Huggingface https://github.com/huggingface/transformers
+- BERT by Google https://github.com/google-research/bert
+- KoBERT by SKT https://github.com/SKTBrain/KoBERT
+- KoELECTRA by Monologg https://github.com/monologg/KoELECTRA
+- Transformers by Huggingface https://github.com/huggingface/transformers
