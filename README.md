@@ -13,7 +13,7 @@ Requirements
 
 1. 한국어 모델 실행 방법
  
- (1) 모델 학습
+ (1) 모델 학습 : 활용 데이터 기본 제공 nsmc train 데이터 활용
 
 python3 main.py --model_type kobert --do_train --do_eval --num_train_epochs 24
  
@@ -21,5 +21,14 @@ python3 main.py --model_type kobert --do_train --do_eval --num_train_epochs 24
  
  python3 predict.py --input_file ko_data1.txt --output_file pred_1217_kobert_epo24.txt --model_dir model/
  
- 2. 영어 모델 실행 방법
- ipynb 소스 파일 실행
+ 2. 영어 모델 실행 방법 : 활용 데이터 기본 제공 emotionlines train 데이터 활용
+ 
+ electra-base-emotionlines.ipynb 소스 파일 실행(학습 및 추론 모두 포함)
+
+
+Reference
+
+BERT by Google https://github.com/google-research/bert
+KoBERT by SKT https://github.com/SKTBrain/KoBERT
+KoELECTRA by Monologg https://github.com/monologg/KoELECTRA
+Transformers by Huggingface https://github.com/huggingface/transformers
